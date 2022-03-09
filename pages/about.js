@@ -73,9 +73,13 @@ export default function About() {
       },
       "-=1"
     );
-    tl.to(".progress", {
-      marginLeft: 0,
-    });
+    tl.to(
+      ".progress",
+      {
+        marginLeft: 0,
+      },
+      "-=2"
+    );
     tl.to(
       ".small",
       {
@@ -86,12 +90,12 @@ export default function About() {
   });
 
   return (
-    <div className="z-0 bg-orange mb-10 p-8 relative">
+    <div className="z-0 w-full bg-orange mb-10 p-8 relative">
       <div className="mx-auto max-w-[700px]">
         <div className="about relative scale-[1.3] z-30 shadow shadow-gray-500 p-4 bg-dark text-orange mt-[80px]">
           <h2 className="text-center  text-2xl font-bold mb-4">About Me</h2>
           <div
-            className="px-3 mb-3 text-xl tracking-wide leading-relaxed
+            className="px-3 mb-3 text-sm md:text-lg tracking-wide leading-relaxed
         "
           >
             <p>
