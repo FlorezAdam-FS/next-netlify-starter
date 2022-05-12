@@ -40,7 +40,7 @@ export const data = [
   },
   {
     name: "This Portfolio Site!",
-    link: "https://adamflorezdesigns.com",
+    link: "/",
     languages: ["NextJS", "TailwindCSS"],
     API: null,
     img: "https://i.imgur.com/Qx4qFsE.png",

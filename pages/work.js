@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { gsap } from "gsap";
-import { MdOutlineOpenInNew } from "react-icons/md";
-import { FiGithub } from "react-icons/fi";
 
 export default function work() {
   const [projects, setProjects] = useState([]);
